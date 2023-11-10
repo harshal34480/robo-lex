@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import CardList from "./components/card-list/card-list.component";
+import { SearchBox } from "./components/search-box/search-box.component";
 import "./App.css";
 
 class App extends Component {
@@ -26,10 +27,10 @@ class App extends Component {
 
     return (
       <div className="App">
-        <input
+        <SearchBox
           type="search"
           placeholder="robo name"
-          onChange={(e) => this.setState({ searchFeild: e.target.value })}
+          handleChange={(e) => this.setState({ searchFeild: e.target.value })}
         />
         <CardList monsters={filteredRobot} />
       </div>
