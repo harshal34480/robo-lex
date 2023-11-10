@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zombi-page/static/css/main.968dcc42.css",
+    "main.js": "/zombi-page/static/js/main.4c848b33.js",
+    "static/js/787.f6e839b9.chunk.js": "/zombi-page/static/js/787.f6e839b9.chunk.js",
+    "index.html": "/zombi-page/index.html",
+    "main.968dcc42.css.map": "/zombi-page/static/css/main.968dcc42.css.map",
+    "main.4c848b33.js.map": "/zombi-page/static/js/main.4c848b33.js.map",
+    "787.f6e839b9.chunk.js.map": "/zombi-page/static/js/787.f6e839b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.968dcc42.css",
+    "static/js/main.4c848b33.js"
+  ]
+}
